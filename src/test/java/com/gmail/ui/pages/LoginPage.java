@@ -11,9 +11,28 @@ public class LoginPage extends AbstractPage {
         super(driver);
     }
 
+    @FindBy(id = "identifierId")
+    private WebElement emailInputField;
+
+    @FindBy(id = "identifierNext")
+    private WebElement identifierNextButton;
+
+    @FindBy(id = "password")
+    private WebElement passowrdInputField;
+
+    @FindBy(id = "passwordNext")
+    private WebElement passwordNextButton;
+
+    public LoginPage enterCredentials() {
+        wait.waitUntilVisible(emailInputField).sendKeys(PropertiesHandler.getUserEmail());
+        wait.waitUntilClickable(identifierNextButton).click();
+        wait.waitUntilVisible(passowrdInputField).sendKeys(PropertiesHandler.getUserPassword());
+        wait.waitUntilClickable(passwordNextButton).click();
+        return this;
+    }
+
     @Override
     public LoginPage openPage() {
-//        driver.navigate().to("google.com");
         driver.navigate().to(PropertiesHandler.getLoginPage());
         return this;
     }

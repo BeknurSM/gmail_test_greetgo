@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="first push">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="second push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/driver/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/PropertiesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/PropertiesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/Waiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/HomePageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
       <recent name="com.gmail.ui.driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GmailSteps.openWebsitePage">
+  <component name="RunManager" selected="TestNG.GmailSteps">
     <configuration name="Feature: GmailTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/gmail/ui/feature/GmailTesting.feature" />
@@ -75,23 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: It should be possible to log in with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/gmail/ui/feature/GmailTesting.feature" />
-      <option name="GLUE" value="com/gmail/ui/steps com/gmail/ui/service" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="D:/Projects/java/gmail_test_greetgo/src/test/resources/gmail.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gmail_test_greetgo" />
-      <option name="NAME_FILTER" value="^It should be possible to log in with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^It should be possible to log in with valid credentials$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: It should be possible to log in with valid credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/gmail.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,6 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GmailSteps.loginGmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gmail_test_greetgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.ui.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.ui.steps" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.ui.steps.GmailSteps" />
+      <option name="METHOD_NAME" value="loginGmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmailSteps.openWebsitePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="gmail_test_greetgo" />
       <extension name="coverage">
@@ -125,23 +138,6 @@
       <option name="MAIN_CLASS_NAME" value="com.gmail.ui.steps.GmailSteps" />
       <option name="METHOD_NAME" value="openWebsitePage" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginSteps" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="gmail_test_greetgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.ui.steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.ui.steps" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.ui.steps.LoginSteps" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GmailSteps.openWebsitePage" />
         <item itemvalue="TestNG.GmailSteps" />
+        <item itemvalue="TestNG.GmailSteps.loginGmail" />
+        <item itemvalue="TestNG.D:/Projects/java/gmail_test_greetgo/src/test/resources/gmail.xml" />
+        <item itemvalue="TestNG.GmailSteps.openWebsitePage" />
         <item itemvalue="TestNG.LoginSteps.openWebsitePage" />
-        <item itemvalue="TestNG.LoginSteps" />
-        <item itemvalue="Cucumber Java.Scenario: It should be possible to log in with valid credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679593159852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second push">
+      <created>1679606304211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679606304211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +211,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="second push" />
+    <option name="LAST_COMMIT_MESSAGE" value="second push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

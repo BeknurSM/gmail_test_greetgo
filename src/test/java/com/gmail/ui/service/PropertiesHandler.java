@@ -23,9 +23,13 @@ public class PropertiesHandler {
 
     private static final String browser = getTestData("browser");
     private static final String loginPage = getTestData("loginPage");
-    private static final String userLogin = getTestData("user.email");
+    private static final String userEmail = getTestData("user.email");
     private static final String userPassword = getTestData("user.password");
+    private static final String signature = getTestData("Signature");
     public static final long baseTimeout = Long.parseLong(getTestData("baseTimeout"));
+
+
+    private static final String text = getTestData("text");
 
     public static String getBrowser() {
         return browser;
@@ -34,9 +38,16 @@ public class PropertiesHandler {
         return loginPage;
     }
 
-    public static String getUserLogin() {
+    public static String getText() {
+        return text;
+    }
 
-        return userLogin;
+    public static String getSignature() {
+        return signature;
+    }
+
+    public static String getUserEmail() {
+        return userEmail;
     }
 
     public static String getUserPassword() {

@@ -8,10 +8,12 @@ import org.testng.annotations.BeforeMethod;
 
 public class Hooks {
 
+    public WebDriver driver;
+
     @BeforeMethod
     public void setUp()
     {
-        DriverSingleton.getDriver();
+        driver = DriverSingleton.getDriver();
     }
 
     @AfterMethod
