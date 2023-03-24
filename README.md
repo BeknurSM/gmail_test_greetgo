@@ -29,4 +29,12 @@ git clone https://github.com/BeknurSM/gmail_test_greetgo.git
 
 ## How to use
 ***
-Right-click the GmailSteps file and click run button to start the test.
+First, specify the user credentials in the config.properties file
+Then do one of the following steps:
+
+- Right-click the GmailSteps class and click run button to start the test.
+- Right-click the gmail.xml file and click run button to start the test.
+- Run using command line
+```bash
+mvn -Dsurfire.suiteXmlFile=src\test\resources\gmail-test.xml clean test
+```

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="third push">
+    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="fourth push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/gmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/gmail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/gmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/gmail-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="com.gmail.ui.driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GmailSteps">
+  <component name="RunManager" selected="TestNG.D:/Projects/java/gmail_test_greetgo/src/test/resources/gmail.xml">
     <configuration name="Feature: GmailTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/gmail/ui/feature/GmailTesting.feature" />
@@ -158,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GmailSteps" />
         <item itemvalue="TestNG.D:/Projects/java/gmail_test_greetgo/src/test/resources/gmail.xml" />
+        <item itemvalue="TestNG.GmailSteps" />
         <item itemvalue="TestNG.GmailSteps.loginGmail" />
         <item itemvalue="TestNG.GmailSteps.openWebsitePage" />
         <item itemvalue="TestNG.LoginSteps.openWebsitePage" />
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679618657781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fourth push">
+      <created>1679619387355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679619387355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +223,8 @@
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
     <MESSAGE value="third push" />
-    <option name="LAST_COMMIT_MESSAGE" value="third push" />
+    <MESSAGE value="fourth push" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
