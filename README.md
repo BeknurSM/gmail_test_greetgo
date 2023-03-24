@@ -29,4 +29,4 @@ git clone https://github.com/BeknurSM/gmail_test_greetgo.git
 
 ## How to use
 ***
-Right-click the GmailSteps class and click run button to start the test.
+Right-click the GmailSteps file and click run button to start the test.
