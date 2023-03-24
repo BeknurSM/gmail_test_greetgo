@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="second push">
+    <list default="true" id="28821c11-1354-4c25-a6dc-783817e66a6b" name="Changes" comment="third push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/driver/DriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/PropertiesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/PropertiesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/service/Waiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/GmailSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/HomePageSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/ui/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/gmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/gmail.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +46,7 @@
       <recent name="D:\Projects\java\gmail_test_greetgo\src\test\java\com\gmail\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\java\gmail_test_greetgo" />
       <recent name="D:\Projects\java\gmail_test_greetgo\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -165,8 +159,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GmailSteps" />
-        <item itemvalue="TestNG.GmailSteps.loginGmail" />
         <item itemvalue="TestNG.D:/Projects/java/gmail_test_greetgo/src/test/resources/gmail.xml" />
+        <item itemvalue="TestNG.GmailSteps.loginGmail" />
         <item itemvalue="TestNG.GmailSteps.openWebsitePage" />
         <item itemvalue="TestNG.LoginSteps.openWebsitePage" />
       </list>
@@ -195,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679606304211</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third push">
+      <created>1679618657781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679618657781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
-    <option name="LAST_COMMIT_MESSAGE" value="second push" />
+    <MESSAGE value="third push" />
+    <option name="LAST_COMMIT_MESSAGE" value="third push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

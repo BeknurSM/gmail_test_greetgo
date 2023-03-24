@@ -3,7 +3,7 @@
 <suite name="Smoke" verbose="1" >
     <test name="GmailSteps" >
         <classes>
-            <class name="com.gmail.ui.steps.GmailSteps" />
+            <class name="com.gmail.ui.steps.GmailSteps"/>
         </classes>
     </test>
 </suite>
